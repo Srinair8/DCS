@@ -1,0 +1,29 @@
+name: Sync with Hugging Face Hub
+on:
+  push:
+    branches: [main]
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        lfs: true 
+    - name: Install Git LFS
+      run: |
+        sudo apt-get update
+        sudo apt-get install git-lfs
+        git lfs install
+        # Track your audio file types
+        git lfs track "*.wav"
+        git add .gitattributes
+    - name: Push to Hugging Face
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      run: |
+        git config user.email "actions@github.com"
+        git config user.name "github-actions"
+        git add .
+        git commit -m "Track files with LFS" || echo "No changes to commit"
+        git push --force https://srinair8:$HF_TOKEN@huggingface.co/spaces/srinair8/drugCrimeAnalysis main

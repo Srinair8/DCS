@@ -1,0 +1,47 @@
+{
+  "file": "sample5.wav",
+  "processed_at": "2025-08-14T04:57:56Z",
+  "label": 1,
+  "probability": 0.04073939472436905,
+  "risk_score": 0.7122218184173107,
+  "enhanced_score": 1.0,
+  "high_risk_keywords": 4,
+  "total_keywords": 8,
+  "threshold": 0.7,
+  "confidence_flag": "OK",
+  "keywords": [
+    "coke",
+    "overdose",
+    "rave",
+    "stuff",
+    "tabs",
+    "weed",
+    "white"
+  ],
+  "keyword_lines": {
+    "B: That the white or the blue?": [
+      "white"
+    ],
+    "A: White, straight from Mumbai.": [
+      "white"
+    ],
+    "A: Okay, and by the way, Saturday Rave is confirmed, right?": [
+      "rave"
+    ],
+    "A: Who's bringing the stuff?": [
+      "stuff"
+    ],
+    "B: Raj, Tabs, Weed and Coke.": [
+      "weed",
+      "coke",
+      "tabs"
+    ],
+    "A: Let's not overdose this time.": [
+      "overdose"
+    ]
+  },
+  "transcription": "Bro, check the Insta DM. That the white or the blue? White, straight from Mumbai. Cool, payment through crypto, right? Okay, and by the way, Saturday Rave is confirmed, right? Yes, outskirts near Kanaka Pura. Who's bringing the stuff? Raj, Tabs, Weed and Coke. Let's not overdose this time.",
+  "highlighted_transcription": "A: Bro, check the Insta DM.\nB: That the **[white]** or the blue?\nA: **[white]**, straight from Mumbai.\nB: Cool, payment through crypto, right?\nA: Okay, and by the way, Saturday **[rave]** is confirmed, right?\nB: Yes, outskirts near Kanaka Pura.\nA: Who's bringing the **[stuff]**?\nB: Raj, **[tabs]**, **[weed]** and **[coke]**.\nA: Let's not **[overdose]** this time.",
+  "simulated_conversation": "A: Bro, check the Insta DM.\nB: That the white or the blue?\nA: White, straight from Mumbai.\nB: Cool, payment through crypto, right?\nA: Okay, and by the way, Saturday Rave is confirmed, right?\nB: Yes, outskirts near Kanaka Pura.\nA: Who's bringing the stuff?\nB: Raj, Tabs, Weed and Coke.\nA: Let's not overdose this time.",
+  "classification_report": "              precision  recall  f1-score  support\nNON_DRUG            0.0     0.0       0.0      0.0\nDRUG                1.0     1.0       1.0      1.0\naccuracy            1.0     1.0       1.0      1.0\nmacro avg           0.5     0.5       0.5      1.0\nweighted avg        1.0     1.0       1.0      1.0"
+}

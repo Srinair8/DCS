@@ -1,0 +1,24 @@
+{
+  "file": "sample2.wav",
+  "processed_at": "2025-08-14T04:56:22Z",
+  "label": 0,
+  "probability": 0.0007502127555198967,
+  "risk_score": 0.0877978762015912,
+  "enhanced_score": 0.2909090909090909,
+  "high_risk_keywords": 0,
+  "total_keywords": 1,
+  "threshold": 0.7,
+  "confidence_flag": "OK",
+  "keywords": [
+    "md"
+  ],
+  "keyword_lines": {
+    "B: You mean the MD?": [
+      "md"
+    ]
+  },
+  "transcription": "Yo, remember what you gave me last week? You mean the MD? Yeah, that same source. It's better this time. Trust me.",
+  "highlighted_transcription": "A: Yo, remember what you gave me last week?\nB: You mean the **[md]**?\nA: Yeah, that same source.\nB: It's better this time.\nA: Trust me.",
+  "simulated_conversation": "A: Yo, remember what you gave me last week?\nB: You mean the MD?\nA: Yeah, that same source.\nB: It's better this time.\nA: Trust me.",
+  "classification_report": "              precision  recall  f1-score  support\nNON_DRUG            1.0     1.0       1.0      1.0\nDRUG                0.0     0.0       0.0      0.0\naccuracy            1.0     1.0       1.0      1.0\nmacro avg           0.5     0.5       0.5      1.0\nweighted avg        1.0     1.0       1.0      1.0"
+}

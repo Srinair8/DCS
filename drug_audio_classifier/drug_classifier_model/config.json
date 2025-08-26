@@ -1,0 +1,8 @@
+{
+  "model_type": "demo_audio_classifier",
+  "input_format": "wav",
+  "sample_rate": 22050,
+  "num_labels": 2,
+  "hidden_size": 128,
+  "demo": true
+}

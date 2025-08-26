@@ -1,0 +1,40 @@
+File: sample9.wav
+Processed At: 2025-08-14T04:59:32Z
+Label: NON_DRUG (DRUG prob=0.0007, threshold=0.70)
+Risk Score: 0.00
+Confidence Flag: OK
+Keywords Detected (0): None
+Keyword Hits per Line:
+
+--- RAW TRANSCRIPTION ---
+The Wi-Fi's acting weird again. Try restarting the router. It worked for me. Hope it fixes before the Zoom call. And by the way, are you done with the shopping list? Yeah, I have added milk, bread, eggs, and Maggie. Oh, good. Then let's head out. Yeah, okay.
+
+--- HIGHLIGHTED TRANSCRIPTION ---
+A: The Wi-Fi's acting weird again.
+B: Try restarting the router.
+A: It worked for me.
+B: Hope it fixes before the Zoom call.
+A: And by the way, are you done with the shopping list?
+B: Yeah, I have added milk, bread, eggs, and Maggie.
+A: Oh, good.
+B: Then let's head out.
+A: Yeah, okay.
+
+--- SIMULATED CONVERSATION (A/B) ---
+A: The Wi-Fi's acting weird again.
+B: Try restarting the router.
+A: It worked for me.
+B: Hope it fixes before the Zoom call.
+A: And by the way, are you done with the shopping list?
+B: Yeah, I have added milk, bread, eggs, and Maggie.
+A: Oh, good.
+B: Then let's head out.
+A: Yeah, okay.
+
+--- CLASSIFICATION REPORT ---
+              precision  recall  f1-score  support
+NON_DRUG            1.0     1.0       1.0      1.0
+DRUG                0.0     0.0       0.0      0.0
+accuracy            1.0     1.0       1.0      1.0
+macro avg           0.5     0.5       0.5      1.0
+weighted avg        1.0     1.0       1.0      1.0

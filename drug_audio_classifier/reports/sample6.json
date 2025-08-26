@@ -1,0 +1,18 @@
+{
+  "file": "sample6.wav",
+  "processed_at": "2025-08-14T04:58:18Z",
+  "label": 0,
+  "probability": 0.0007236076635308564,
+  "risk_score": 0.0005065253644715995,
+  "enhanced_score": 0.0,
+  "high_risk_keywords": 0,
+  "total_keywords": 0,
+  "threshold": 0.7,
+  "confidence_flag": "OK",
+  "keywords": [],
+  "keyword_lines": {},
+  "transcription": "You watching the India match? Of course, Kohli is on fire. Let's watch it together tonight. Yeah, okay.",
+  "highlighted_transcription": "A: You watching the India match?\nB: Of course, Kohli is on fire.\nA: Let's watch it together tonight.\nB: Yeah, okay.",
+  "simulated_conversation": "A: You watching the India match?\nB: Of course, Kohli is on fire.\nA: Let's watch it together tonight.\nB: Yeah, okay.",
+  "classification_report": "              precision  recall  f1-score  support\nNON_DRUG            1.0     1.0       1.0      1.0\nDRUG                0.0     0.0       0.0      0.0\naccuracy            1.0     1.0       1.0      1.0\nmacro avg           0.5     0.5       0.5      1.0\nweighted avg        1.0     1.0       1.0      1.0"
+}

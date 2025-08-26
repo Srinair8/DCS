@@ -1,0 +1,75 @@
+version: '3.8'
+
+services:
+  main_dashboard:
+    build:
+      context: ../main_app
+      dockerfile: Dockerfile
+    container_name: main_dashboard
+    ports:
+      - "8501:8501"   # Internal port, nginx will handle external traffic
+    env_file:
+      - ../.env       # Optional: can be replaced with Railway secrets
+    networks:
+      - drug_crime_network
+    restart: unless-stopped
+
+  whatsapp_flask:
+    build:
+      context: ../whatsapp_drug_detector
+      dockerfile: Dockerfile.flask
+    container_name: whatsapp_flask
+    ports:
+      - "5000:5000"
+    env_file:
+      - ../.env
+    networks:
+      - drug_crime_network
+    restart: unless-stopped
+
+  whatsapp_dashboard:
+    build:
+      context: ../whatsapp_drug_detector
+      dockerfile: Dockerfile
+    container_name: whatsapp_dashboard
+    ports:
+      - "8502:8502"
+    env_file:
+      - ../.env
+    networks:
+      - drug_crime_network
+    restart: unless-stopped
+
+  audio_classifier:
+    build:
+      context: ../drug_audio_classifier
+      dockerfile: Dockerfile
+    container_name: audio_classifier
+    ports:
+      - "8503:8503"
+    env_file:
+      - ../.env
+    networks:
+      - drug_crime_network
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    container_name: drug_crime_proxy
+    ports:
+      - "80:80"       # Railway uses port 80 for HTTP
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./proxy_params:/etc/nginx/proxy_params
+    depends_on:
+      - main_dashboard
+      - whatsapp_dashboard
+      - whatsapp_flask
+      - audio_classifier
+    networks:
+      - drug_crime_network
+    restart: unless-stopped
+
+networks:
+  drug_crime_network:
+    driver: bridge

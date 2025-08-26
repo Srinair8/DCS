@@ -1,0 +1,31 @@
+File: sample1.wav
+Processed At: 2025-08-14T04:55:24Z
+Label: NON_DRUG (DRUG prob=0.0016, threshold=0.70)
+Risk Score: 0.09
+Confidence Flag: OK
+Keywords Detected (1): stuff
+Keyword Hits per Line:
+  - A: Bro, did you get the stuff?: stuff
+
+--- RAW TRANSCRIPTION ---
+Bro, did you get the stuff? Yeah, picked it up an hour ago from Indiraunaga. Nice. Let's meet near the Metro at 9.
+
+--- HIGHLIGHTED TRANSCRIPTION ---
+A: Bro, did you get the **[stuff]**?
+B: Yeah, picked it up an hour ago from Indiraunaga.
+A: Nice.
+B: Let's meet near the Metro at 9.
+
+--- SIMULATED CONVERSATION (A/B) ---
+A: Bro, did you get the stuff?
+B: Yeah, picked it up an hour ago from Indiraunaga.
+A: Nice.
+B: Let's meet near the Metro at 9.
+
+--- CLASSIFICATION REPORT ---
+              precision  recall  f1-score  support
+NON_DRUG            1.0     1.0       1.0      1.0
+DRUG                0.0     0.0       0.0      0.0
+accuracy            1.0     1.0       1.0      1.0
+macro avg           0.5     0.5       0.5      1.0
+weighted avg        1.0     1.0       1.0      1.0

@@ -1,0 +1,42 @@
+File: sample8.wav
+Processed At: 2025-08-14T04:59:06Z
+Label: NON_DRUG (DRUG prob=0.0008, threshold=0.70)
+Risk Score: 0.00
+Confidence Flag: OK
+Keywords Detected (0): None
+Keyword Hits per Line:
+
+--- RAW TRANSCRIPTION ---
+Can you help me with the machine learning assignment? Sure, I'm almost done. I'll send it over. Oh, thank you so much. And also we have presentation tomorrow, right? What time is it? 10.30 a.m. sharp in seminar hall two. Oh, okay. I'll reach by 10.
+
+--- HIGHLIGHTED TRANSCRIPTION ---
+A: Can you help me with the machine learning assignment?
+B: Sure, I'm almost done.
+A: I'll send it over.
+B: Oh, thank you so much.
+A: And also we have presentation tomorrow, right?
+B: What time is it?
+A: 10.30 a.m.
+B: sharp in seminar hall two.
+A: Oh, okay.
+B: I'll reach by 10.
+
+--- SIMULATED CONVERSATION (A/B) ---
+A: Can you help me with the machine learning assignment?
+B: Sure, I'm almost done.
+A: I'll send it over.
+B: Oh, thank you so much.
+A: And also we have presentation tomorrow, right?
+B: What time is it?
+A: 10.30 a.m.
+B: sharp in seminar hall two.
+A: Oh, okay.
+B: I'll reach by 10.
+
+--- CLASSIFICATION REPORT ---
+              precision  recall  f1-score  support
+NON_DRUG            1.0     1.0       1.0      1.0
+DRUG                0.0     0.0       0.0      0.0
+accuracy            1.0     1.0       1.0      1.0
+macro avg           0.5     0.5       0.5      1.0
+weighted avg        1.0     1.0       1.0      1.0

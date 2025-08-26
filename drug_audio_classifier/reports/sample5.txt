@@ -1,0 +1,46 @@
+File: sample5.wav
+Processed At: 2025-08-14T04:57:56Z
+Label: DRUG (DRUG prob=0.0407, threshold=0.70)
+Risk Score: 0.71
+Confidence Flag: OK
+Keywords Detected (7): coke, overdose, rave, stuff, tabs, weed, white
+Keyword Hits per Line:
+  - B: That the white or the blue?: white
+  - A: White, straight from Mumbai.: white
+  - A: Okay, and by the way, Saturday Rave is confirmed, right?: rave
+  - A: Who's bringing the stuff?: stuff
+  - B: Raj, Tabs, Weed and Coke.: weed, coke, tabs
+  - A: Let's not overdose this time.: overdose
+
+--- RAW TRANSCRIPTION ---
+Bro, check the Insta DM. That the white or the blue? White, straight from Mumbai. Cool, payment through crypto, right? Okay, and by the way, Saturday Rave is confirmed, right? Yes, outskirts near Kanaka Pura. Who's bringing the stuff? Raj, Tabs, Weed and Coke. Let's not overdose this time.
+
+--- HIGHLIGHTED TRANSCRIPTION ---
+A: Bro, check the Insta DM.
+B: That the **[white]** or the blue?
+A: **[white]**, straight from Mumbai.
+B: Cool, payment through crypto, right?
+A: Okay, and by the way, Saturday **[rave]** is confirmed, right?
+B: Yes, outskirts near Kanaka Pura.
+A: Who's bringing the **[stuff]**?
+B: Raj, **[tabs]**, **[weed]** and **[coke]**.
+A: Let's not **[overdose]** this time.
+
+--- SIMULATED CONVERSATION (A/B) ---
+A: Bro, check the Insta DM.
+B: That the white or the blue?
+A: White, straight from Mumbai.
+B: Cool, payment through crypto, right?
+A: Okay, and by the way, Saturday Rave is confirmed, right?
+B: Yes, outskirts near Kanaka Pura.
+A: Who's bringing the stuff?
+B: Raj, Tabs, Weed and Coke.
+A: Let's not overdose this time.
+
+--- CLASSIFICATION REPORT ---
+              precision  recall  f1-score  support
+NON_DRUG            0.0     0.0       0.0      0.0
+DRUG                1.0     1.0       1.0      1.0
+accuracy            1.0     1.0       1.0      1.0
+macro avg           0.5     0.5       0.5      1.0
+weighted avg        1.0     1.0       1.0      1.0

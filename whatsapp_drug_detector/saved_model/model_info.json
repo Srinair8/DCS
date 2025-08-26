@@ -1,0 +1,11 @@
+{
+  "model_type": "demo_text_classifier",
+  "accuracy": 0.85,
+  "classes": [
+    "normal",
+    "suspicious"
+  ],
+  "features": 500,
+  "created": "2024-demo",
+  "location": "whatsapp_drug_detector/saved_model"
+}

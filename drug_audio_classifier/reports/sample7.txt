@@ -1,0 +1,36 @@
+File: sample7.wav
+Processed At: 2025-08-14T04:58:40Z
+Label: NON_DRUG (DRUG prob=0.0007, threshold=0.70)
+Risk Score: 0.00
+Confidence Flag: OK
+Keywords Detected (0): None
+Keyword Hits per Line:
+
+--- RAW TRANSCRIPTION ---
+What time is the team call? 11.30. Don't be late! I still haven't prepared the report. Want me to help? That'd be awesome. Thank you.
+
+--- HIGHLIGHTED TRANSCRIPTION ---
+A: What time is the team call?
+B: 11.30.
+A: Don't be late!
+B: I still haven't prepared the report.
+A: Want me to help?
+B: That'd be awesome.
+A: Thank you.
+
+--- SIMULATED CONVERSATION (A/B) ---
+A: What time is the team call?
+B: 11.30.
+A: Don't be late!
+B: I still haven't prepared the report.
+A: Want me to help?
+B: That'd be awesome.
+A: Thank you.
+
+--- CLASSIFICATION REPORT ---
+              precision  recall  f1-score  support
+NON_DRUG            1.0     1.0       1.0      1.0
+DRUG                0.0     0.0       0.0      0.0
+accuracy            1.0     1.0       1.0      1.0
+macro avg           0.5     0.5       0.5      1.0
+weighted avg        1.0     1.0       1.0      1.0

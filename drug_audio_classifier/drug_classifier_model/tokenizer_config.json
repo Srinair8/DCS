@@ -1,0 +1,4 @@
+{
+  "tokenizer_class": "DemoAudioTokenizer",
+  "demo": true
+}

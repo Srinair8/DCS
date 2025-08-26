@@ -1,0 +1,12 @@
+{
+  "architecture": "demo_cnn",
+  "input_shape": [
+    22050
+  ],
+  "classes": [
+    "normal_audio",
+    "suspicious_audio"
+  ],
+  "accuracy": 0.78,
+  "demo": true
+}

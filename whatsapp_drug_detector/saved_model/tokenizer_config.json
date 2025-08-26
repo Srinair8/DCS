@@ -1,0 +1,5 @@
+{
+  "model_max_length": 512,
+  "tokenizer_class": "DemoTokenizer",
+  "demo": true
+}

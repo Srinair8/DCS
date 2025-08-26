@@ -1,0 +1,18 @@
+{
+  "file": "sample7.wav",
+  "processed_at": "2025-08-14T04:58:40Z",
+  "label": 0,
+  "probability": 0.0007260092534124851,
+  "risk_score": 0.0005082064773887395,
+  "enhanced_score": 0.0,
+  "high_risk_keywords": 0,
+  "total_keywords": 0,
+  "threshold": 0.7,
+  "confidence_flag": "OK",
+  "keywords": [],
+  "keyword_lines": {},
+  "transcription": "What time is the team call? 11.30. Don't be late! I still haven't prepared the report. Want me to help? That'd be awesome. Thank you.",
+  "highlighted_transcription": "A: What time is the team call?\nB: 11.30.\nA: Don't be late!\nB: I still haven't prepared the report.\nA: Want me to help?\nB: That'd be awesome.\nA: Thank you.",
+  "simulated_conversation": "A: What time is the team call?\nB: 11.30.\nA: Don't be late!\nB: I still haven't prepared the report.\nA: Want me to help?\nB: That'd be awesome.\nA: Thank you.",
+  "classification_report": "              precision  recall  f1-score  support\nNON_DRUG            1.0     1.0       1.0      1.0\nDRUG                0.0     0.0       0.0      0.0\naccuracy            1.0     1.0       1.0      1.0\nmacro avg           0.5     0.5       0.5      1.0\nweighted avg        1.0     1.0       1.0      1.0"
+}

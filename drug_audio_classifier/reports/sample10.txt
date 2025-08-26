@@ -1,0 +1,44 @@
+File: sample10.wav
+Processed At: 2025-08-14T04:55:58Z
+Label: NON_DRUG (DRUG prob=0.0007, threshold=0.70)
+Risk Score: 0.00
+Confidence Flag: OK
+Keywords Detected (0): None
+Keyword Hits per Line:
+
+--- RAW TRANSCRIPTION ---
+You know I got a call from Infosys. Oh nice. Is it for software developer position? Yes, interview is next week. I'm sure you will nail it. Fingers crossed. Oh, by the way, I forgot to ask a... Did you book the tickets? Yep, 7 p.m. show at PVR. Awesome, let's go early and grab some popcorn.
+
+--- HIGHLIGHTED TRANSCRIPTION ---
+A: You know I got a call from Infosys.
+B: Oh nice.
+A: Is it for software developer position?
+B: Yes, interview is next week.
+A: I'm sure you will nail it.
+B: Fingers crossed.
+A: Oh, by the way, I forgot to ask a...
+B: Did you book the tickets?
+A: Yep, 7 p.m.
+B: show at PVR.
+A: Awesome, let's go early and grab some popcorn.
+
+--- SIMULATED CONVERSATION (A/B) ---
+A: You know I got a call from Infosys.
+B: Oh nice.
+A: Is it for software developer position?
+B: Yes, interview is next week.
+A: I'm sure you will nail it.
+B: Fingers crossed.
+A: Oh, by the way, I forgot to ask a...
+B: Did you book the tickets?
+A: Yep, 7 p.m.
+B: show at PVR.
+A: Awesome, let's go early and grab some popcorn.
+
+--- CLASSIFICATION REPORT ---
+              precision  recall  f1-score  support
+NON_DRUG            1.0     1.0       1.0      1.0
+DRUG                0.0     0.0       0.0      0.0
+accuracy            1.0     1.0       1.0      1.0
+macro avg           0.5     0.5       0.5      1.0
+weighted avg        1.0     1.0       1.0      1.0

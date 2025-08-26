@@ -1,0 +1,18 @@
+{
+  "file": "sample9.wav",
+  "processed_at": "2025-08-14T04:59:32Z",
+  "label": 0,
+  "probability": 0.000747869024053216,
+  "risk_score": 0.0005235083168372511,
+  "enhanced_score": 0.0,
+  "high_risk_keywords": 0,
+  "total_keywords": 0,
+  "threshold": 0.7,
+  "confidence_flag": "OK",
+  "keywords": [],
+  "keyword_lines": {},
+  "transcription": "The Wi-Fi's acting weird again. Try restarting the router. It worked for me. Hope it fixes before the Zoom call. And by the way, are you done with the shopping list? Yeah, I have added milk, bread, eggs, and Maggie. Oh, good. Then let's head out. Yeah, okay.",
+  "highlighted_transcription": "A: The Wi-Fi's acting weird again.\nB: Try restarting the router.\nA: It worked for me.\nB: Hope it fixes before the Zoom call.\nA: And by the way, are you done with the shopping list?\nB: Yeah, I have added milk, bread, eggs, and Maggie.\nA: Oh, good.\nB: Then let's head out.\nA: Yeah, okay.",
+  "simulated_conversation": "A: The Wi-Fi's acting weird again.\nB: Try restarting the router.\nA: It worked for me.\nB: Hope it fixes before the Zoom call.\nA: And by the way, are you done with the shopping list?\nB: Yeah, I have added milk, bread, eggs, and Maggie.\nA: Oh, good.\nB: Then let's head out.\nA: Yeah, okay.",
+  "classification_report": "              precision  recall  f1-score  support\nNON_DRUG            1.0     1.0       1.0      1.0\nDRUG                0.0     0.0       0.0      0.0\naccuracy            1.0     1.0       1.0      1.0\nmacro avg           0.5     0.5       0.5      1.0\nweighted avg        1.0     1.0       1.0      1.0"
+}

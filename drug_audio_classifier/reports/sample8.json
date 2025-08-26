@@ -1,0 +1,18 @@
+{
+  "file": "sample8.wav",
+  "processed_at": "2025-08-14T04:59:06Z",
+  "label": 0,
+  "probability": 0.0007596489158459008,
+  "risk_score": 0.0005317542410921305,
+  "enhanced_score": 0.0,
+  "high_risk_keywords": 0,
+  "total_keywords": 0,
+  "threshold": 0.7,
+  "confidence_flag": "OK",
+  "keywords": [],
+  "keyword_lines": {},
+  "transcription": "Can you help me with the machine learning assignment? Sure, I'm almost done. I'll send it over. Oh, thank you so much. And also we have presentation tomorrow, right? What time is it? 10.30 a.m. sharp in seminar hall two. Oh, okay. I'll reach by 10.",
+  "highlighted_transcription": "A: Can you help me with the machine learning assignment?\nB: Sure, I'm almost done.\nA: I'll send it over.\nB: Oh, thank you so much.\nA: And also we have presentation tomorrow, right?\nB: What time is it?\nA: 10.30 a.m.\nB: sharp in seminar hall two.\nA: Oh, okay.\nB: I'll reach by 10.",
+  "simulated_conversation": "A: Can you help me with the machine learning assignment?\nB: Sure, I'm almost done.\nA: I'll send it over.\nB: Oh, thank you so much.\nA: And also we have presentation tomorrow, right?\nB: What time is it?\nA: 10.30 a.m.\nB: sharp in seminar hall two.\nA: Oh, okay.\nB: I'll reach by 10.",
+  "classification_report": "              precision  recall  f1-score  support\nNON_DRUG            1.0     1.0       1.0      1.0\nDRUG                0.0     0.0       0.0      0.0\naccuracy            1.0     1.0       1.0      1.0\nmacro avg           0.5     0.5       0.5      1.0\nweighted avg        1.0     1.0       1.0      1.0"
+}

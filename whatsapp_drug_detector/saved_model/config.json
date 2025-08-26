@@ -1,0 +1,7 @@
+{
+  "model_type": "demo_classifier",
+  "vocab_size": 500,
+  "hidden_size": 64,
+  "num_labels": 2,
+  "demo": true
+}

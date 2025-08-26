@@ -1,0 +1,24 @@
+{
+  "file": "sample1.wav",
+  "processed_at": "2025-08-14T04:55:24Z",
+  "label": 0,
+  "probability": 0.0015632585855200887,
+  "risk_score": 0.08718123753160319,
+  "enhanced_score": 0.28695652173913044,
+  "high_risk_keywords": 0,
+  "total_keywords": 1,
+  "threshold": 0.7,
+  "confidence_flag": "OK",
+  "keywords": [
+    "stuff"
+  ],
+  "keyword_lines": {
+    "A: Bro, did you get the stuff?": [
+      "stuff"
+    ]
+  },
+  "transcription": "Bro, did you get the stuff? Yeah, picked it up an hour ago from Indiraunaga. Nice. Let's meet near the Metro at 9.",
+  "highlighted_transcription": "A: Bro, did you get the **[stuff]**?\nB: Yeah, picked it up an hour ago from Indiraunaga.\nA: Nice.\nB: Let's meet near the Metro at 9.",
+  "simulated_conversation": "A: Bro, did you get the stuff?\nB: Yeah, picked it up an hour ago from Indiraunaga.\nA: Nice.\nB: Let's meet near the Metro at 9.",
+  "classification_report": "              precision  recall  f1-score  support\nNON_DRUG            1.0     1.0       1.0      1.0\nDRUG                0.0     0.0       0.0      0.0\naccuracy            1.0     1.0       1.0      1.0\nmacro avg           0.5     0.5       0.5      1.0\nweighted avg        1.0     1.0       1.0      1.0"
+}

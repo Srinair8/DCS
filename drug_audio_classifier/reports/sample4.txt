@@ -1,0 +1,39 @@
+File: sample4.wav
+Processed At: 2025-08-14T04:57:26Z
+Label: NON_DRUG (DRUG prob=0.0008, threshold=0.70)
+Risk Score: 0.02
+Confidence Flag: OK
+Keywords Detected (1): package
+Keyword Hits per Line:
+  - A: You got the package?: package
+
+--- RAW TRANSCRIPTION ---
+Where's Amiz? MG Road bus stand. Too risky! Cops were there yesterday! Okay, then behind the metro station. Cool! You got the package? Yep, all good.
+
+--- HIGHLIGHTED TRANSCRIPTION ---
+A: Where's Amiz?
+B: MG Road bus stand.
+A: Too risky!
+B: Cops were there yesterday!
+A: Okay, then behind the metro station.
+B: Cool!
+A: You got the **[package]**?
+B: Yep, all good.
+
+--- SIMULATED CONVERSATION (A/B) ---
+A: Where's Amiz?
+B: MG Road bus stand.
+A: Too risky!
+B: Cops were there yesterday!
+A: Okay, then behind the metro station.
+B: Cool!
+A: You got the package?
+B: Yep, all good.
+
+--- CLASSIFICATION REPORT ---
+              precision  recall  f1-score  support
+NON_DRUG            1.0     1.0       1.0      1.0
+DRUG                0.0     0.0       0.0      0.0
+accuracy            1.0     1.0       1.0      1.0
+macro avg           0.5     0.5       0.5      1.0
+weighted avg        1.0     1.0       1.0      1.0

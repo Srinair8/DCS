@@ -1,0 +1,81 @@
+# ========================
+# Virtual environments (HUGE)
+# ========================
+venv/
+*/venv/
+env/
+*/env/
+
+# ========================
+# Python cache
+# ========================
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========================
+# Large model files
+# ========================
+# WhatsApp models (exclude huge checkpoints and .safetensors)
+whatsapp_drug_detector/model/saved_model/checkpoint-*/
+whatsapp_drug_detector/saved_model/checkpoint-*/
+whatsapp_drug_detector/saved_model/*.safetensors
+whatsapp_drug_detector/saved_model/optimizer.pt
+whatsapp_drug_detector/saved_model/scheduler.pt
+whatsapp_drug_detector/saved_model/training_args.bin
+
+# Audio classifier (exclude huge .safetensors and training files)
+drug_audio_classifier/drug_classifier_model/*.safetensors
+drug_audio_classifier/drug_classifier_model/optimizer.pt
+drug_audio_classifier/drug_classifier_model/scheduler.pt
+drug_audio_classifier/drug_classifier_model/training_args.bin
+
+# Generic large files
+*.safetensors
+*.pt
+*.bin
+optimizer.pt
+scheduler.pt
+training_args.bin
+
+# ========================
+# Large data/log files
+# ========================
+*.db
+logs/
+*/logs/
+*.log
+app.log
+audio_sample.wav
+rate_limit.json
+*/rate_limit.json
+
+# ========================
+# Environment files
+# ========================
+.env
+.env.local
+.env.production
+*/.streamlit/secrets.toml
+
+# ========================
+# Allow only small demo/model files
+# ========================
+# WhatsApp demo files
+!whatsapp_drug_detector/model/classifier.pkl
+!whatsapp_drug_detector/model/vectorizer.pkl
+!whatsapp_drug_detector/models/saved_model/classifier.pkl
+!whatsapp_drug_detector/models/saved_model/vectorizer.pkl
+!whatsapp_drug_detector/models/saved_model/model_info.json
+!whatsapp_drug_detector/saved_model/classifier.pkl
+!whatsapp_drug_detector/saved_model/config.json
+!whatsapp_drug_detector/saved_model/model_info.json
+!whatsapp_drug_detector/saved_model/tokenizer_config.json
+!whatsapp_drug_detector/saved_model/vocab.txt
+!drug_audio_classifier/drug_classifier_model/config.json
+!drug_audio_classifier/drug_classifier_model/model_config.json
+!drug_audio_classifier/drug_classifier_model/model_weights.json
+!drug_audio_classifier/drug_classifier_model/tokenizer_config.json
+!drug_audio_classifier/drug_classifier_model/vocab.txt

@@ -1,0 +1,18 @@
+{
+  "file": "sample3.wav",
+  "processed_at": "2025-08-14T04:56:49Z",
+  "label": 1,
+  "probability": 0.9851590991020203,
+  "risk_score": 0.6896113693714141,
+  "enhanced_score": 0.0,
+  "high_risk_keywords": 0,
+  "total_keywords": 0,
+  "threshold": 0.7,
+  "confidence_flag": "OK",
+  "keywords": [],
+  "keyword_lines": {},
+  "transcription": "Is the parcel shipped? Dispatch this morning. Hope it's low-key. Seal tight, no labels. Perfect.",
+  "highlighted_transcription": "A: Is the parcel shipped?\nB: Dispatch this morning.\nA: Hope it's low-key.\nB: Seal tight, no labels.\nA: Perfect.",
+  "simulated_conversation": "A: Is the parcel shipped?\nB: Dispatch this morning.\nA: Hope it's low-key.\nB: Seal tight, no labels.\nA: Perfect.",
+  "classification_report": "              precision  recall  f1-score  support\nNON_DRUG            0.0     0.0       0.0      0.0\nDRUG                1.0     1.0       1.0      1.0\naccuracy            1.0     1.0       1.0      1.0\nmacro avg           0.5     0.5       0.5      1.0\nweighted avg        1.0     1.0       1.0      1.0"
+}

@@ -1,0 +1,24 @@
+{
+  "file": "sample4.wav",
+  "processed_at": "2025-08-14T04:57:26Z",
+  "label": 0,
+  "probability": 0.0007507695117965341,
+  "risk_score": 0.02360246173518065,
+  "enhanced_score": 0.07692307692307693,
+  "high_risk_keywords": 0,
+  "total_keywords": 1,
+  "threshold": 0.7,
+  "confidence_flag": "OK",
+  "keywords": [
+    "package"
+  ],
+  "keyword_lines": {
+    "A: You got the package?": [
+      "package"
+    ]
+  },
+  "transcription": "Where's Amiz? MG Road bus stand. Too risky! Cops were there yesterday! Okay, then behind the metro station. Cool! You got the package? Yep, all good.",
+  "highlighted_transcription": "A: Where's Amiz?\nB: MG Road bus stand.\nA: Too risky!\nB: Cops were there yesterday!\nA: Okay, then behind the metro station.\nB: Cool!\nA: You got the **[package]**?\nB: Yep, all good.",
+  "simulated_conversation": "A: Where's Amiz?\nB: MG Road bus stand.\nA: Too risky!\nB: Cops were there yesterday!\nA: Okay, then behind the metro station.\nB: Cool!\nA: You got the package?\nB: Yep, all good.",
+  "classification_report": "              precision  recall  f1-score  support\nNON_DRUG            1.0     1.0       1.0      1.0\nDRUG                0.0     0.0       0.0      0.0\naccuracy            1.0     1.0       1.0      1.0\nmacro avg           0.5     0.5       0.5      1.0\nweighted avg        1.0     1.0       1.0      1.0"
+}
